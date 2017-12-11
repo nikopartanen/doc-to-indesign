@@ -6,7 +6,9 @@ There are several problems that one can encounter when importing Word documents 
 
 Lots of things are just online without clear license information, so I just add here links and documentation to the things I find work well.
 
-**Note:** In most of the cases these are edits the document author most likely should not do, unless they are profoundly familiar with what is being discussed here.
+**Note one:** In most of the cases these are edits the document author most likely should not do, unless they are profoundly familiar with what is being discussed here.
+
+**Note two:** Internet is full of professional descriptions of different workflows, I just try to document here what I'm usually doing. What is typical for the texts I work with is that they contains lots of special characters and are often in languages that are not typographically very well supported.
 
 ## Word Macros
 
@@ -26,6 +28,7 @@ Lots of things are just online without clear license information, so I just add 
 - Remove unused styles
 - Map the styles explicitly into InDesign styles while doing Place
 - Use Word's Styles > Show Style Guides to find parts that are suspect
+- Explicitly mapping the cursive, bold etc. into character styles in Word and InDesign seems to be the best way to make sure you can delete all local overrides
 
 ## Where the problems come from?
 
