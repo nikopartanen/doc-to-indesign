@@ -10,10 +10,14 @@ Lots of things are just online without clear license information, so I just add 
 
 **Note two:** Internet is full of professional descriptions of different workflows, I just try to document here what I'm usually doing. What is typical for the texts I work with is that they contains lots of special characters and are often in languages that are not typographically very well supported.
 
+**Note three:** I usually work with texts where the biggest disaster is losing cursive randomly when importing to InDesign. It is nice if styles come in consistently, but making sure some critical formatting is not lost is most important thing.
+
 ## Word Macros
 
 - [Remove unused styles, 3rd listed variant](https://answers.microsoft.com/en-us/office/forum/office_2010-word/word-2010-how-does-one-remove-any-unused-styles-in/d9d879ea-d89f-453d-bc8e-6d3dd6f4e48d?auth=1)
     - Makes mapping styles easier
+- [Force all fonts to X](https://word.tips.net/T011069_Finding_Text_Not_Using_a_Particular_Font.html)
+    - This is useful to make sure there are no fonts hiding somewhere beyond the local overrides that are visible in the document, although I'm not currently sure if this really fixes it to what extent
 - [Remove track-changes before date, 3rd listed variant](https://www.datanumen.com/blogs/4-quick-ways-view-accept-revisions-date-word-document)
     - Invariably the author sends you new version after you have already started to do something. Or maybe there are changes after you have already proofread most of the document. This way it is possible to find easily which changes are new.
 
