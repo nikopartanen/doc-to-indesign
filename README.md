@@ -21,7 +21,14 @@ Lots of things are just online without clear license information, so I just add 
     - It doesn't seem to work with really messed up documents, but it seems to bring onto surface some underlying previously copy-pasted fonts and things that are there, but which Word usually doesn't show anywhere
 - [Remove track-changes before date, 3rd listed variant](https://www.datanumen.com/blogs/4-quick-ways-view-accept-revisions-date-word-document)
     - Invariably the author sends you new version after you have already started to do something. Or maybe there are changes after you have already proofread most of the document. This way it is possible to find easily which changes are new.
+- When the .doc document contains some deeply underlying formatting that just doesn't come up easily, but is still messing everything up, saving it in docx-format at times seems to strip away the worst issues, basically it seems to remove some information Word for some bizarre reason stores about ancient formatting layers or something like this.
+   - After this you can replace all italics and bolds with character styles, import it all, select all, remove all overrides, and you should have a nice text
 
+## Testing methods
+
+If Pandoc conversion returns correct formatting, this is at least a good sign.
+
+    pandoc -s document.docx -o test.md
 
 ## What are the problems?
 
