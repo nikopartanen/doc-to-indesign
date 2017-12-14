@@ -18,6 +18,7 @@ Lots of things are just online without clear license information, so I just add 
     - Makes mapping styles easier
 - [Force all fonts to X](https://word.tips.net/T011069_Finding_Text_Not_Using_a_Particular_Font.html)
     - This is useful to make sure there are no fonts hiding somewhere beyond the local overrides that are visible in the document, although I'm not currently sure if this really fixes it to what extent
+    - It doesn't seem to work with really messed up documents, but it seems to bring onto surface some underlying previously copy-pasted fonts and things that are there, but which Word usually doesn't show anywhere
 - [Remove track-changes before date, 3rd listed variant](https://www.datanumen.com/blogs/4-quick-ways-view-accept-revisions-date-word-document)
     - Invariably the author sends you new version after you have already started to do something. Or maybe there are changes after you have already proofread most of the document. This way it is possible to find easily which changes are new.
 
